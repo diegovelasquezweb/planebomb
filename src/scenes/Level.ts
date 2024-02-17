@@ -25,17 +25,13 @@ export default class Level extends Phaser.Scene {
     const text = this.add.text(640, 458, "", {});
     text.setOrigin(0.5, 0.5);
     text.text = "Phaser 3 + Phaser Editor 2D\nWebpack + TypeScript";
-    text.setStyle({ "align": "center", "fontFamily": "Arial", "fontSize": "3em" });
+    text.setStyle({ "align": "center", "color": "#ea3d3dff", "fontFamily": "Arial", "fontSize": "3em" });
 
     // onAwakeScript
     const onAwakeScript = new OnAwakeScript(text);
 
     // moveInSceneActionScript
     const moveInSceneActionScript = new MoveInSceneActionScript(onAwakeScript);
-
-    // image_1
-    const image_1 = this.add.image(603, 424, "bg1");
-    image_1.name = "image_1";
 
     // moveInSceneActionScript (prefab fields)
     moveInSceneActionScript.from = "BOTTOM";
@@ -50,6 +46,8 @@ export default class Level extends Phaser.Scene {
   create() {
 
     this.editorCreate();
+
+    // this.scene.start("Intro");
   }
 
   /* END-USER-CODE */

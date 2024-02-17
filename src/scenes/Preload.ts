@@ -70,7 +70,7 @@ export default class Preload extends Phaser.Scene {
 			}
 		}
 
-		this.scene.start("One");
+		this.scene.start("Intro");
 	}
 
 	/* END-USER-CODE */

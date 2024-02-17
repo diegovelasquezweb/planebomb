@@ -2,9 +2,24 @@
     "section1": {
         "files": [
             {
+                "url": "assets/backgrounds/clouds/clouds_1/3.png",
+                "type": "image",
+                "key": "bg_3"
+            },
+            {
+                "url": "assets/backgrounds/clouds/clouds_1/4.png",
+                "type": "image",
+                "key": "bg_4"
+            },
+            {
                 "url": "assets/backgrounds/clouds/clouds_1/bg1.png",
                 "type": "image",
                 "key": "bg1"
+            },
+            {
+                "url": "assets/backgrounds/clouds/clouds_1/bg2.png",
+                "type": "image",
+                "key": "bg2"
             }
         ]
     },

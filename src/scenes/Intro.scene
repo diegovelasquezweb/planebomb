@@ -1,0 +1,71 @@
+{
+    "id": "82857f46-7230-4a8b-97b6-3a3a49631922",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "compilerTabSize": 2,
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Intro",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "d884aaf2-f49a-40ef-a0ee-b1da85e50246",
+            "label": "bg1",
+            "texture": {
+                "key": "bg1"
+            },
+            "scaleX": 2.3,
+            "scaleY": 2.3,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "TileSprite",
+            "id": "95605d5f-0683-446e-8c4f-06504ed13d91",
+            "label": "bg2",
+            "texture": {
+                "key": "bg2"
+            },
+            "scaleX": 2.3,
+            "scaleY": 2.3,
+            "originX": 0,
+            "originY": 0,
+            "width": 576,
+            "height": 324,
+            "tilePositionX": -100,
+            "list": [
+                {
+                    "prefabId": "5e746613-c01a-42aa-8681-4950bb2f23ce",
+                    "id": "2bfc761d-5cc9-49b3-b569-a9d92ec17e8c",
+                    "label": "spriteScript"
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "2dfbaeca-0568-4ac6-aba3-e64289500c07",
+            "label": "bg_4",
+            "texture": {
+                "key": "bg_4"
+            },
+            "scaleX": 2.3,
+            "scaleY": 2.3,
+            "originX": 0,
+            "originY": 0
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

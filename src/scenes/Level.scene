@@ -27,6 +27,7 @@
             "align": "center",
             "fontFamily": "Arial",
             "fontSize": "3em",
+            "color": "#ea3d3dff",
             "list": [
                 {
                     "prefabId": "7028a0e2-cd14-44b7-b2a4-68dac16ece00",
@@ -45,17 +46,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "type": "Image",
-            "id": "6f07a4ad-2932-4d0d-bb92-6fe85bac80fb",
-            "label": "image_1",
-            "useGameObjectName": true,
-            "texture": {
-                "key": "bg1"
-            },
-            "x": 603,
-            "y": 424
         }
     ],
     "plainObjects": [],
