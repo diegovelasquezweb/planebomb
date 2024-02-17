@@ -17,7 +17,7 @@ class Boot extends Phaser.Scene {
 
     create() {
 
-       this.scene.start("Preload");
+       this.scene.start("Level");
     }
 }
 
@@ -31,7 +31,7 @@ window.addEventListener('load', function () {
 			mode: Phaser.Scale.ScaleModes.FIT,
 			autoCenter: Phaser.Scale.Center.CENTER_BOTH
 		},
-		scene: [Boot, Preload, One]
+		scene: [Boot, Preload, One, Level]
 	});
 
 	game.scene.start("Boot");

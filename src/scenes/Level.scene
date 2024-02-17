@@ -2,8 +2,11 @@
     "id": "b685c081-ee5f-4b67-b583-415922c9e2c4",
     "sceneType": "SCENE",
     "settings": {
+        "compilerInsertSpaces": true,
+        "compilerTabSize": 2,
         "exportClass": true,
         "autoImport": true,
+        "preloadMethodName": "",
         "preloadPackFiles": [],
         "createMethodName": "editorCreate",
         "sceneKey": "Level",
@@ -45,13 +48,14 @@
         },
         {
             "type": "Image",
-            "id": "011aaf78-01b5-4f59-ae52-d1696006b5f6",
-            "label": "1",
+            "id": "6f07a4ad-2932-4d0d-bb92-6fe85bac80fb",
+            "label": "image_1",
+            "useGameObjectName": true,
             "texture": {
-                "key": "1"
+                "key": "bg1"
             },
-            "x": 325,
-            "y": 206
+            "x": 603,
+            "y": 424
         }
     ],
     "plainObjects": [],
