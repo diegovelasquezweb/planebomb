@@ -10,55 +10,52 @@
         "createMethodName": "editorCreate",
         "sceneKey": "Intro",
         "compilerOutputLanguage": "TYPE_SCRIPT",
-        "borderWidth": 1280,
-        "borderHeight": 720
+        "borderWidth": 720,
+        "borderHeight": 340
     },
     "displayList": [
         {
             "type": "Image",
-            "id": "d884aaf2-f49a-40ef-a0ee-b1da85e50246",
+            "id": "99b33b79-b3e9-44b8-b7d3-c8a3be1b7e86",
             "label": "bg1",
             "texture": {
                 "key": "bg1"
             },
-            "scaleX": 2.3,
-            "scaleY": 2.3,
+            "scaleX": 1.246599166599618,
+            "scaleY": 1.0437517906329075,
             "originX": 0,
             "originY": 0
         },
         {
             "type": "TileSprite",
-            "id": "95605d5f-0683-446e-8c4f-06504ed13d91",
+            "id": "9153d345-04e2-4e40-a5cc-b1e3e60e4579",
             "label": "bg2",
             "texture": {
                 "key": "bg2"
             },
-            "scaleX": 2.3,
-            "scaleY": 2.3,
             "originX": 0,
             "originY": 0,
-            "width": 576,
-            "height": 324,
-            "tilePositionX": -100,
-            "list": [
-                {
-                    "prefabId": "5e746613-c01a-42aa-8681-4950bb2f23ce",
-                    "id": "2bfc761d-5cc9-49b3-b569-a9d92ec17e8c",
-                    "label": "spriteScript"
-                }
-            ]
+            "width": 720,
+            "height": 340
         },
         {
-            "type": "Image",
-            "id": "2dfbaeca-0568-4ac6-aba3-e64289500c07",
+            "type": "TileSprite",
+            "id": "164b5403-8c26-42e2-924f-7d01d445e71f",
             "label": "bg_4",
             "texture": {
                 "key": "bg_4"
             },
-            "scaleX": 2.3,
-            "scaleY": 2.3,
             "originX": 0,
-            "originY": 0
+            "originY": 0,
+            "width": 720,
+            "height": 340,
+            "list": [
+                {
+                    "prefabId": "466f923c-91c6-4605-a1f2-01fc6dfb9ad2",
+                    "id": "d583b5c7-ec3f-4c96-bf0e-0a0cffbe2a8b",
+                    "label": "destroyActionScript"
+                }
+            ]
         }
     ],
     "plainObjects": [],

@@ -1,0 +1,33 @@
+{
+    "anims": [
+        {
+            "key": "animation",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "bg2",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bg_4",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    },
+    "settings": {
+        "sourceLang": "JAVA_SCRIPT",
+        "esModule": false,
+        "generateCode": false
+    }
+}

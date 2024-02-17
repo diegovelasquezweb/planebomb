@@ -2,6 +2,11 @@
     "section1": {
         "files": [
             {
+                "url": "assets/animations.json",
+                "type": "animation",
+                "key": "animations"
+            },
+            {
                 "url": "assets/backgrounds/clouds/clouds_1/3.png",
                 "type": "image",
                 "key": "bg_3"

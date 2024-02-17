@@ -4,7 +4,7 @@
 /* START OF COMPILED CODE */
 
 import Phaser from "phaser";
-import { SpriteScript } from "@phasereditor2d/scripts-core";
+import { DestroyActionScript } from "@phasereditor2d/scripts-core";
 /* START-USER-IMPORTS */
 /* END-USER-IMPORTS */
 
@@ -22,25 +22,20 @@ export default class Intro extends Phaser.Scene {
 
     // bg1
     const bg1 = this.add.image(0, 0, "bg1");
-    bg1.scaleX = 2.3;
-    bg1.scaleY = 2.3;
+    bg1.scaleX = 1.246599166599618;
+    bg1.scaleY = 1.0437517906329075;
     bg1.setOrigin(0, 0);
 
     // bg2
-    const bg2 = this.add.tileSprite(0, 0, 576, 324, "bg2");
-    bg2.scaleX = 2.3;
-    bg2.scaleY = 2.3;
+    const bg2 = this.add.tileSprite(0, 0, 720, 340, "bg2");
     bg2.setOrigin(0, 0);
-    bg2.tilePositionX = -100;
-
-    // spriteScript
-    new SpriteScript(bg2);
 
     // bg_4
-    const bg_4 = this.add.image(0, 0, "bg_4");
-    bg_4.scaleX = 2.3;
-    bg_4.scaleY = 2.3;
+    const bg_4 = this.add.tileSprite(0, 0, 720, 340, "bg_4");
     bg_4.setOrigin(0, 0);
+
+    // destroyActionScript
+    new DestroyActionScript(bg_4);
 
     this.events.emit("scene-awake");
   }
