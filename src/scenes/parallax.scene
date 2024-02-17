@@ -1,5 +1,5 @@
 {
-    "id": "785149c6-63e0-44f5-9f41-adba51169ad0",
+    "id": "1aefd73c-d6e1-4e68-949e-1279c7e5c854",
     "sceneType": "PREFAB",
     "settings": {
         "compilerInsertSpaces": true,
@@ -16,7 +16,7 @@
     "displayList": [
         {
             "type": "TileSprite",
-            "id": "98ee3265-ee41-4e5b-bd75-4f863bf25a3a",
+            "id": "86487e78-5a9e-4532-b048-d02201c674e1",
             "label": "bg_4",
             "texture": {
                 "key": "bg_4"
@@ -25,7 +25,18 @@
             "originY": 0,
             "width": 720,
             "height": 340,
-            "tilePositionX": 200
+            "tilePositionX": 200,
+            "list": [
+                {
+                    "prefabId": "466f923c-91c6-4605-a1f2-01fc6dfb9ad2",
+                    "id": "d583b5c7-ec3f-4c96-bf0e-0a0cffbe2a8b",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "destroyActionScript"
+                }
+            ]
         }
     ],
     "plainObjects": [],
@@ -34,17 +45,5 @@
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
         "version": 5
-    },
-    "prefabProperties": [
-        {
-            "name": "property",
-            "label": "Property",
-            "tooltip": "",
-            "defValue": "SPACE",
-            "customDefinition": false,
-            "type": {
-                "id": "keycode"
-            }
-        }
-    ]
+    }
 }

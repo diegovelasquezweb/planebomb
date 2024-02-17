@@ -39,23 +39,15 @@
             "height": 340
         },
         {
-            "type": "TileSprite",
+            "prefabId": "1aefd73c-d6e1-4e68-949e-1279c7e5c854",
             "id": "164b5403-8c26-42e2-924f-7d01d445e71f",
+            "unlock": [
+                "x",
+                "y"
+            ],
             "label": "bg_4",
-            "texture": {
-                "key": "bg_4"
-            },
-            "originX": 0,
-            "originY": 0,
-            "width": 720,
-            "height": 340,
-            "list": [
-                {
-                    "prefabId": "466f923c-91c6-4605-a1f2-01fc6dfb9ad2",
-                    "id": "d583b5c7-ec3f-4c96-bf0e-0a0cffbe2a8b",
-                    "label": "destroyActionScript"
-                }
-            ]
+            "x": 0,
+            "y": 15
         }
     ],
     "plainObjects": [],

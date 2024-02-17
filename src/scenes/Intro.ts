@@ -4,7 +4,7 @@
 /* START OF COMPILED CODE */
 
 import Phaser from "phaser";
-import { DestroyActionScript } from "@phasereditor2d/scripts-core";
+import parallax from "./parallax";
 /* START-USER-IMPORTS */
 /* END-USER-IMPORTS */
 
@@ -31,11 +31,8 @@ export default class Intro extends Phaser.Scene {
     bg2.setOrigin(0, 0);
 
     // bg_4
-    const bg_4 = this.add.tileSprite(0, 0, 720, 340, "bg_4");
-    bg_4.setOrigin(0, 0);
-
-    // destroyActionScript
-    new DestroyActionScript(bg_4);
+    const bg_4 = new parallax(this, 0, 15);
+    this.add.existing(bg_4);
 
     this.events.emit("scene-awake");
   }

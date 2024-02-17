@@ -4,10 +4,11 @@
 /* START OF COMPILED CODE */
 
 import Phaser from "phaser";
+import { DestroyActionScript } from "@phasereditor2d/scripts-core";
 /* START-USER-IMPORTS */
 /* END-USER-IMPORTS */
 
-export default class Prefab extends Phaser.GameObjects.TileSprite {
+export default class parallax extends Phaser.GameObjects.TileSprite {
 
   constructor(scene: Phaser.Scene, x?: number, y?: number, width?: number, height?: number, texture?: string, frame?: number | string) {
     super(scene, x ?? 0, y ?? 0, width ?? 720, height ?? 340, texture || "bg_4", frame);
@@ -15,12 +16,13 @@ export default class Prefab extends Phaser.GameObjects.TileSprite {
     this.setOrigin(0, 0);
     this.tilePositionX = 200;
 
+    // destroyActionScript
+    new DestroyActionScript(this);
+
     /* START-USER-CTR-CODE */
     // Write your code here.
     /* END-USER-CTR-CODE */
   }
-
-  public property: number = Phaser.Input.Keyboard.KeyCodes.SPACE;
 
   /* START-USER-CODE */
 
