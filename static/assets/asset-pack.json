@@ -1,8 +1,33 @@
 {
+    "section1": {
+        "files": [
+            {
+                "url": "assets/backgrounds/Clouds/Clouds 1/1.png",
+                "type": "image",
+                "key": "1"
+            },
+            {
+                "url": "assets/backgrounds/Clouds/Clouds 1/2.png",
+                "type": "image",
+                "key": "2"
+            },
+            {
+                "url": "assets/backgrounds/Clouds/Clouds 1/3.png",
+                "type": "image",
+                "key": "3"
+            },
+            {
+                "url": "assets/backgrounds/Clouds/Clouds 1/4.png",
+                "type": "image",
+                "key": "4"
+            }
+        ]
+    },
     "meta": {
         "app": "Phaser Editor 2D - Asset Pack Editor",
         "contentType": "phasereditor2d.pack.core.AssetContentType",
         "url": "https://phasereditor2d.com",
-        "version": 2
+        "version": 2,
+        "showAllFilesInBlocks": false
     }
 }

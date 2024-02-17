@@ -4,8 +4,6 @@
 /* START OF COMPILED CODE */
 
 import Phaser from "phaser";
-import { OnPointerDownScript } from "@phasereditor2d/scripts-core";
-import { PushActionScript } from "@phasereditor2d/scripts-simple-animations";
 import { OnAwakeScript } from "@phasereditor2d/scripts-core";
 import { MoveInSceneActionScript } from "@phasereditor2d/scripts-simple-animations";
 /* START-USER-IMPORTS */
@@ -23,21 +21,6 @@ export default class Level extends Phaser.Scene {
 
 	editorCreate(): void {
 
-		// fufuSuperDino
-		const fufuSuperDino = this.add.image(640, 257, "FufuSuperDino");
-
-		// onPointerDownScript
-		const onPointerDownScript = new OnPointerDownScript(fufuSuperDino);
-
-		// pushAction
-		new PushActionScript(onPointerDownScript);
-
-		// onAwakeScript_1
-		const onAwakeScript_1 = new OnAwakeScript(fufuSuperDino);
-
-		// moveInSceneActionScript_1
-		const moveInSceneActionScript_1 = new MoveInSceneActionScript(onAwakeScript_1);
-
 		// text
 		const text = this.add.text(640, 458, "", {});
 		text.setOrigin(0.5, 0.5);
@@ -50,8 +33,8 @@ export default class Level extends Phaser.Scene {
 		// moveInSceneActionScript
 		const moveInSceneActionScript = new MoveInSceneActionScript(onAwakeScript);
 
-		// moveInSceneActionScript_1 (prefab fields)
-		moveInSceneActionScript_1.from = "TOP";
+		// 1
+		this.add.image(325, 206, "1");
 
 		// moveInSceneActionScript (prefab fields)
 		moveInSceneActionScript.from = "BOTTOM";
