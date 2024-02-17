@@ -31,7 +31,7 @@ window.addEventListener('load', function () {
 			mode: Phaser.Scale.ScaleModes.FIT,
 			autoCenter: Phaser.Scale.Center.CENTER_BOTH
 		},
-		scene: [Boot, Scene1]
+		scene: [Boot, Preload, Scene1]
 	});
 
 	game.scene.start("Boot");
